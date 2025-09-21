@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stancu Gabriel | Photography</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+  <a href="#home" class="logo"><img src="../pozesabau/logo.jpg" alt="Logo"></a>
+
+  <!-- Checkbox pentru toggle -->
+  <input type="checkbox" id="menu-toggle">
+
+  <!-- Hamburger -->
+  <label class="hamburger" for="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- Link-urile -->
+  <nav class="nav-links">
+    <a href="#home">Acasă</a>
+    <a href="#portfolio">Portofoliu</a>
+    <a href="#about">Despre mine</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Povești prin obiectiv</h2>
+    <p>Un portofoliu vizual care spune povești prin fiecare cadru.</p>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h3>Explorează categoriile</h3>
+    <div class="category-buttons">
+      <button class="category-btn" data-target="portrete">
+        <img src="../pozesabau/DSC4622.jpg" alt="Portrete">
+        <span>Portrete</span>
+      </button>
+      <button class="category-btn" data-target="peisaje">
+        <img src="../pozesabau/image00047.jpeg" alt="Peisaje">
+        <span>Peisaje</span>
+      </button>
+      <button class="category-btn" data-target="flori">
+        <img src="../pozesabau/image00066.jpeg" alt="Flori">
+        <span>Flori</span>
+      </button>
+      <button class="category-btn" data-target="masini">
+        <img src="../pozesabau/DSC2998.jpg" alt="Mașini">
+        <span>Mașini</span>
+      </button>
+      <button class="category-btn" data-target="postere">
+        <img src="../pozesabau/untitled-1.jpg" alt="Postere">
+        <span>Postere</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Galerii categorii -->
+  <div id="galleries">
+    <section id="portrete" class="category-section hidden">
+      <h3>Portrete</h3>
+      <div class="gallery">
+        <img src="../pozesabau/image00067.jpeg" alt="Portret 1">
+        <img src="../pozesabau/_DSC4629.jpg" alt="Portret 2">
+        <img src="../pozesabau/_DSC9754.jpg" alt="Portret 3">
+        <img src="../pozesabau/_DSC0552.jpg" alt="Portret 4">
+        <img src="../pozesabau/_DSC0633-2.jpg" alt="Portret 5">
+        <img src="../pozesabau/img00001.jpeg" alt="Portret 6">
+        <img src="../pozesabau/img00002.jpeg" alt="Portret 7">
+        <img src="../pozesabau/img00003.jpeg" alt="Portret 8">
+        <img src="../pozesabau/image00061.jpeg" alt="Portret 9">
+        <img src="../pozesabau/image00064.jpeg" alt="Portret 10">
+      </div>
+    </section>
+
+    <section id="peisaje" class="category-section hidden">
+      <h3>Peisaje</h3>
+      <div class="gallery">
+        <img src="../pozesabau/image00047.jpeg" alt="Peisaj 1">
+        <img src="../pozesabau/image00015.jpeg" alt="Peisaj 2">
+        <img src="../pozesabau/image00063.jpeg" alt="Peisaj 3">
+        <img src="../pozesabau/image00014.jpeg" alt="Peisaj 5">
+        <img src="../pozesabau/image00060.jpeg" alt="Peisaj 6">
+        <img src="../pozesabau/image00016.jpeg" alt="Peisaj 7">
+        <img src="../pozesabau/image00017.jpeg" alt="Peisaj 8">
+      </div>
+    </section>
+
+    <section id="flori" class="category-section hidden">
+      <h3>Flori</h3>
+      <div class="gallery">
+        <img src="../pozesabau/image00066.jpeg" alt="Floare 1">
+        <img src="../pozesabau/image00065.jpeg" alt="Floare 2">
+        <img src="../pozesabau/image00098.jpeg" alt="Floare 3">
+        <img src="../pozesabau/image000090.jpeg" alt="Floare 4">
+        <img src="../pozesabau/image00097.jpeg" alt="Floare 5">
+        <img src="../pozesabau/_DSC3466.jpg" alt="Floare 6">
+        <img src="../pozesabau/_DSC3460.jpg" alt="Floare 7">
+        <img src="../pozesabau/_DSC3479.jpg" alt="Floare 8">
+      </div>
+    </section>
+
+    <section id="masini" class="category-section hidden">
+      <h3>Mașini</h3>
+      <div class="gallery">
+        <img src="../pozesabau/DSC2998.jpg" alt="Mașină 1">
+        <img src="../pozesabau/_DSC3001-2.jpg" alt="Mașină 2">
+        <img src="../pozesabau/_DSC2988.jpg" alt="Mașină 3">
+        <img src="../pozesabau/image0000001.jpeg" alt="Mașină 4">
+        <img src="../pozesabau/image00070.jpeg" alt="Mașină 5">
+        <img src="../pozesabau/_DSC3018.jpg" alt="Mașină 6">
+        <img src="../pozesabau/_DSC3017.jpg" alt="Mașină 7">
+        <img src="../pozesabau/image00069.jpeg" alt="Mașină 8">
+        <img src="../pozesabau/image00068.jpeg" alt="Mașină 9">
+        <img src="../pozesabau/_DSC2436.jpg" alt="Mașină 10">
+      </div>
+    </section>
+
+    <section id="postere" class="category-section hidden">
+      <h3>Postere</h3>
+      <div class="gallery">
+        <img src="../pozesabau/_DSC3047.jpg" alt="Poster 1">
+        <img src="../pozesabau/_DSC2998.jpg" alt="Poster 2">
+        <img src="../pozesabau/image00011.jpeg" alt="Poster 3">
+      </div>
+    </section>
+  </div>
+
+  <!-- About -->
+  <section id="about">
+    <h3>Despre mine</h3>
+    <p>
+      Sunt pasionat de fotografie și caut mereu să surprind esența momentului.
+      În portofoliul meu veți găsi imagini de la evenimente, peisaje și portrete,
+      toate reflectând stilul meu propriu. Cred în frumusețea simplității și în puterea unei imagini de a spune o poveste.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h3>Contact</h3>
+    <form>
+      <label>Email</label>
+      <input type="email" placeholder="Introdu emailul tău" required>
+      <label>Număr de telefon</label>
+      <input type="tel" placeholder="Introdu numărul de telefon" required>
+      <button type="submit">Trimite</button>
+    </form>
+  </section>
+
+  <!-- Social links -->
+  <div class="social-links">
+    <a href="https://www.facebook.com/share/18iPJa6rrR/?mibextid=wwXIfr" target="_blank">
+      <img src="../pozesabau/facebookpng.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/gabi.mediaa?igsh=MTVrY2FzdHh2ZnVubQ%3D%3D&utm_source=qr" target="_blank">
+      <img src="../pozesabau/instagrampng.png" alt="Instagram">
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Stancu Gabriel | Photography. Toate drepturile rezervate.</p>
+    <p>Telefon: +40 753 390 903 | Email: gabi.mediaa@gmail.com</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <img src="" alt="preview">
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Header scroll
+    const mainHeader = document.querySelector("header");
+    const homeNavLink = document.querySelector('nav a[href="#home"]');
+
+    const adjustHeaderOnScroll = () => {
+      if (window.scrollY > 50) {
+        mainHeader.classList.add("shrink");
+      } else {
+        mainHeader.classList.remove("shrink");
+      }
+    };
+    window.addEventListener("scroll", adjustHeaderOnScroll);
+    adjustHeaderOnScroll();
+
+    homeNavLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      mainHeader.classList.remove("shrink");
+    });
+
+    // Category buttons
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const categorySections = document.querySelectorAll('.category-section');
+
+    categoryButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-target');
+
+        categorySections.forEach(sec => {
+          if(sec.id === targetId){
+            sec.classList.add('active');
+          } else {
+            sec.classList.remove('active');
+          }
+        });
+
+        const targetSection = document.getElementById(targetId);
+        targetSection.scrollIntoView({behavior: 'smooth'});
+      });
+    });
+
+    // Modal
+    const images = document.querySelectorAll('.gallery img');
+    const modal = document.getElementById('modal');
+    const modalImg = modal.querySelector('img');
+
+    images.forEach(img => {
+      img.addEventListener('click', () => {
+        modal.classList.add('active');
+        modalImg.src = img.src;
+        modalImg.alt = img.alt;
+      });
+    });
+
+    modal.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+
+    // Scroll reveal
+    const sections = document.querySelectorAll('section');
+    const revealOnScroll = () => {
+      const triggerBottom = window.innerHeight * 0.85;
+      sections.forEach(sec => {
+        const boxTop = sec.getBoundingClientRect().top;
+        if (boxTop < triggerBottom) sec.classList.add('visible');
+      });
+    };
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+  </script>
+</body>
+</html>
